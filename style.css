@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(rgba(41, 43, 156, 0.8), rgb(0, 0, 0, 0.4));
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+section {
+    background-image: linear-gradient(rgba(184, 4, 190, 0.8), rgb(0, 0, 0, 0.4));
+    width: 350px;
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+    margin: 5% auto;
+    box-shadow: inset 4px 2px 2px yellow, inset -4px -2px 2px blue;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.heading {
+    color: whitesmoke;
+    box-shadow: inset 4px 2px 2px yellow, inset -4px -2px 2px blue;
+    background-color: rgb(4, 27, 25);
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    margin: 10px auto;
+}
+
+h2 {
+    color: whitesmoke;
+    padding: 10px;
+}
+
+input {
+    width: 40%;
+    color: black;
+    background-color: cornsilk;
+    font-size: 15px;
+    padding: 8px;
+    outline: none;
+    margin: 30px auto;
+}
+
+button {
+    width: 50px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(2, 18, 20);
+    color: #fff;
+    outline: none;
+    margin: 0px 2px;
+}
+
+.todo {
+    text-align: center;
+    background-color: violet;
+}
+
+.btn {
+    background-color: rgb(179, 111, 23);
+    margin: 2px 5px;
+}
+
+ul {
+    list-style: none;
+    margin: 20px 0px;
+    background-color: rgb(228, 37, 228);
+}
+
+.liStyle {
+    color: yellow;
+    font-size: 1.4rem;
+    margin-right: 40px;
+    margin: 15px 0;
+    border-bottom: 2px solid springgreen;
+}
+
+
+/* media */
+
+@media only screen and (max-width: 500px) {
+    body {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    section {
+        width: 100% !important;
+        height: auto;
+        padding-bottom: 40px;
+        margin-left: 10px;
+        margin-right: 10px;
+        box-sizing: border-box;
+    }
+}
